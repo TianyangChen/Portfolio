@@ -1,0 +1,39 @@
+.name {
+    text-align: right;
+}
+
+.project p {
+    text-align: center;
+}
+
+.project a {
+    color: #2d3c49;
+}
+
+.project h2 {
+    text-align: center;
+    color: #2d3c49;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+}
+
+h4 {
+    font-size: 1.5vw;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 3px solid #7d97ad;
+    margin-bottom: 40px;
+    color: #2d3c49;
+}
+
+.subtitle {
+    color: #7d97ad;
+}
