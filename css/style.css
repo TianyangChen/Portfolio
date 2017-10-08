@@ -15,18 +15,6 @@
     color: #2d3c49;
 }
 
-h1 {
-    font-size: 3vw;
-}
-
-h2 {
-    font-size: 2.5vw;
-}
-
-h4 {
-    font-size: 1.5vw;
-}
-
 header {
     padding: 20px 0;
     border-bottom: 3px solid #7d97ad;
@@ -36,4 +24,26 @@ header {
 
 .subtitle {
     color: #7d97ad;
+}
+
+.logo {
+    height: 98px;
+}
+
+@media screen and (max-width: 660px) {
+    .name h1 {
+        font-size: 26px;
+    }
+    .project h2 {
+        font-size: 22px;
+    }
+    .subtitle h2 {
+        font-size: 22px;
+    }
+    .name h4 {
+        font-size: 16px;
+    }
+    .logo {
+        height: 85px;
+    }
 }
